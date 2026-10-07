@@ -55,7 +55,7 @@ if isOpen == "":
     getMonitors()
     getWindows(windowsOne)
     subprocess.Popen(["wine", screensaverFile, "/s"], stdout=subprocess.DEVNULL)
-    time.sleep(1)
+    time.sleep(3)
     getWindows(windowsTwo)
     getScreensaverWins()
     moveScreensavers()
